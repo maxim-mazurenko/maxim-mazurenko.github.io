@@ -193,7 +193,8 @@
 
     }
     .button {
-        width: 130px;
+        max-width: 130px;
+        font-size: 11px;
     }
     .promo {
         &__header {
