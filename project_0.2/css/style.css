@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face{
+    font-family: "Gilroy-Medium";
+    src: url(/fonts/Gilroy-Medium.ttf);
+}
+@font-face{
+    font-family: "Gilroy-Bold";
+    src: url(/fonts/Gilroy-Bold.ttf);
+}
+
+.container {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 33px 0 0 0;
+    min-height: 768px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.header .header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header_nav .header_nav_item{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+
+}
+
+.header .header_nav .header_nav_item a{
+    color: #828282;
+    text-decoration: none;
+
+}
+.header .header_nav .header_nav_item a:hover{
+    color: #070707;
+}
+
+.header .header_vector{
+    margin-top: 32px;
+    width: 960px;
+    border: 1px solid rgba(130, 130, 130, 1);
+}
+
+.header .header_text{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header .header_text .header_text1{
+    color: #070707;
+    font-family: Gilroy-Bold;
+    font-size: 47.3392px;
+    line-height: 59px;
+    font-weight: 600;
+}
+
+.header .header_text .header_text2{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.header .header_text .header_text3{
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    color: #828282;
+    writing-mode: vertical-rl;
+    transform: rotate( 180deg );
+    
+}
+
+.header .header_text .header_text3 a{
+    color: #828282;
+    text-decoration: none;
+
+}
+
+.header .header_text .header_text3 a:hover{
+    color: #070707;
+
+}
+
+.header .header_img {
+    display: block;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.about_me {
+    min-height: 506px;
+    padding: 120px 0 0 0;
+    background-color: #F6F6F6;
+}
+
+.about_me .about_me_header_text {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.about_me .about_me_text{
+    margin-top: 18px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+
+.skills{
+    min-height: 610px;
+    padding: 91px 0 0 0;
+}
+
+.skills .skills_header_text{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills .skills_text{
+    margin-top: 69px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 82px;
+}
+
+.skills_wrapper .skills_item{
+    width: 167px;
+    min-height: 207px;
+
+}
+
+.skills_wrapper .skills_item img{
+    display: block;
+    margin: 0 auto;
+}
+
+.skills_wrapper .skills_item .skills_item_text{
+    margin-top: 25px;
+    margin-bottom: 41px;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+
+}
+
+
+.portfolio{
+    min-height: 2200px;
+    padding: 113px 0 0 0;
+    background-color: #F6F6F6;
+
+}
+
+.portfolio .portfolio_text{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.portfolio .portfolio_img1{
+    display: block;
+    margin: 0 auto;
+    margin-top: 47px;
+}
+
+.portfolio .portfolio_img2{
+    display: block;
+    margin: 0 auto;
+    margin-top: 47px;
+}
+
+.portfolio .portfolio_img3{
+    display: block;
+    margin: 0 auto;
+    margin-top: 47px;
+}
+
+.portfolio .portfolio_text1 {
+    margin-top: 46px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+}
+
+.portfolio .portfolio_text1 a{
+    color: #070707;
+}
+
+
+.contacts{
+    min-height: 622px;
+    padding: 114px 0 0 0;
+}
+
+.contacts .contacts_header_text{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.contacts .contacts_text{
+    margin-top: 20px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 180px;
+    height: 42px;
+    background-color: #070707;
+    color:#FFFFFF;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid  #070707;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.contacts .contacts_icon img{
+    display: block;
+}
+.contacts .contacts_icon{
+    margin: 0 auto;
+    margin-top: 86px;
+    width: 343px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contacts .contacts_bottom_text{
+    margin-top: 46px;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
