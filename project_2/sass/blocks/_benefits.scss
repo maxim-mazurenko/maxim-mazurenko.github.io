@@ -29,6 +29,12 @@
         a {
             color: #ff0000;
         }
+        .animated {
+            animation: heartbeat 2s infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__text {
         text-align: center;
