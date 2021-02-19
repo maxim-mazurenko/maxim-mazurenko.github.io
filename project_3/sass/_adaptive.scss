@@ -138,6 +138,7 @@
         padding-top: 50px;
     }
     .contacts {
+        padding: 50px 0 50px 0;
         &__title {
             text-align: center;
             &::before {
@@ -169,6 +170,9 @@
             grid-column: unset;
             grid-template-columns: auto;
             row-gap: 30px;
+        }
+        &__link {
+            margin: 0 12px;
         }
     }
 }
