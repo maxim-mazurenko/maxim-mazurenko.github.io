@@ -45,7 +45,7 @@
     }
     &__progress {
         display: grid;
-        grid-template-columns: repeat(auto-fit, 350px);
+        grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
         grid-template-rows: repeat(2, 70px);
         grid-auto-rows: 70px;
         column-gap: 45px;
