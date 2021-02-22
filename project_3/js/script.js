@@ -25,7 +25,7 @@ counters.forEach((item, i) => {
 });
 
 $(document).ready(function(){
-        $("#menu").on("click","a", function (event) {
+        $("#menu, .pegeup").on("click","a", function (event) {
     //отменяем стандартную обработку нажатия по ссылке
     event.preventDefault();
     //забираем идентификатор бока с атрибута href
